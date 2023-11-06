@@ -65,7 +65,7 @@
     --color-12: #211A1699;
     --color-13: #CFCFCF;
     --color-14: #343434;
-    --color-15: #777777;
+    --color-15: #757171;
     --color-16: #D53636;
     --color-17: #00000005;
     --color-18: #A0A0A0;
@@ -281,7 +281,7 @@ main {
 
 .container-comments__date {
     font-family: var(--figtree);
-    color: var(--color-14);
+    color: var(--color-15);
     font-size: 1em;
     font-weight: 400;
 }
@@ -290,7 +290,7 @@ main {
     padding-left: 42px;
     font-size: 1.2em;
     font-family: var(--figtree);
-    color: var(--color-14);
+    color: var(--color-15);
     line-height: 16px;
     font-weight: 500;
     padding-bottom: 14px;
@@ -308,7 +308,7 @@ main {
     display: flex;
     align-items: center;
     gap: 6px;
-    color: var(--color-14);
+    color: var(--color-15);
     font-family: var(--figtree);
     font-size: 1.2em;
     font-weight: 500;
