@@ -17,8 +17,10 @@
             <button class="container-notice__button-back">
                 <img width="14" height="14" src="public/images/seta.svg" alt="Icone de voltar">
             </button>
-            <img width="375" height="375" src="public/images/imagem.webp" class="container-notice__image"
-                alt="Capa da noticia">
+            <picture>
+                <source media="(max-width: 500px)" width="375" height="375" srcset="public/images/imagem.webp">
+                <img width="563" height="563" src="public/images/imagem2x.webp" class="container-notice__image" alt="Capa da notícia">
+              </picture>
             <article class="container-notice__block">
                 <div class="container-notice__tags">
                     <span class="container-notice__tag">esportes</span>
