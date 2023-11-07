@@ -100,6 +100,7 @@ main {
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 2;
 }
 
 .container-notice__button-back {
@@ -109,6 +110,7 @@ main {
     top: 54px;
     left: 15px;
     border: none;
+    z-index: 2;
 }
 
 .container-notice__button-back img {
@@ -122,7 +124,7 @@ main {
 }
 
 .container-notice__image {
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 .container-notice__tags {
